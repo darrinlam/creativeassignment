@@ -1,6 +1,7 @@
     body{
-        background-image:url(food.jpg);
+        background:url(food.jpg) no-repeat center center fixed;
         background-color:Darkgrey;
+        background-size:cover;
     }
     
     
@@ -32,6 +33,7 @@
         height:800px;
         width:400px;
         margin:30px;
+        margin:auto;
         border-radius:10px;
         border-style:groove;
         background: rgba(222,184,135,0.55);
