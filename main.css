@@ -23,7 +23,7 @@
     margin-right: auto;
     }
     
-    button {
+    #searchButton, #recipeInput {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -38,4 +38,43 @@
         border-style:groove;
         background: rgba(222,184,135,0.55);
         color:white;
+        text-align:center;
     }
+    #recipe img {
+        width:300px;
+        margin-left:50px;
+        margin-right:50px;
+    }
+    #recipe ul {
+        text-align:left;
+    }
+    a:link {
+        color:white;
+        text-decoration:none;
+    }
+    a:visited{
+        color:white;
+        text-decoration:none;
+    }
+    input[type=text] {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align:center;
+    background:rgba(222,184,135,0.55);
+    color:white;
+    font-size:20px;
+}
+#searchButton {
+    background:rgba(222,184,135,0.55);
+    height:50px;
+    width:150px;
+    border-radius:10px;
+    font-size:20px;
+    text-align:center;
+    color:white;
+}
+#searchButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
